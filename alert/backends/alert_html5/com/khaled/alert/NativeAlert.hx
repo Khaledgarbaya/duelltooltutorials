@@ -1,4 +1,5 @@
 package com.khaled.alert;
+import js.Browser;
 class NativeAlert
 {
     /**
@@ -6,6 +7,7 @@ class NativeAlert
     **/
     public static function alert(message: String = ""): Void
     {
-
+        // alert(message) in javascript
+        Browser.alert(message);
     }
 }
