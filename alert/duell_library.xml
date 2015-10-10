@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<library xmlns="duell">
+    <!-- Setting up independent backends. For further native configuration check available libraries. -->
+    <include path="backends/alert_ios/duell_library.xml" if="ios" />
+    <include path="backends/alert_android/duell_library.xml" if="android" />
+    <include path="backends/alert_html5/duell_library.xml" if="html5" />
+
+</library>
