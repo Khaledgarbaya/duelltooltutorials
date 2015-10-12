@@ -2,6 +2,6 @@
 <library xmlns="duell">
     <!-- Special configuration for the iOS backend goes here. -->
 
-    <ndll name="sample_ios" build-file-path="project/Build.xml" bin-path="ndll" />
+    <ndll name="alert_ios" build-file-path="project/Build.xml" bin-path="ndll" />
 
 </library>
